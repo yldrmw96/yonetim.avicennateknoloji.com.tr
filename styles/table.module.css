@@ -1,0 +1,30 @@
+@reference "./globals.css";
+
+:root {
+  --cell-span: 2;
+}
+
+.outer {
+  @apply grid grid-cols-[10rem_1fr] gap-2 items-baseline w-full ;
+}
+
+.frame_limit {
+  @apply h-screen min-h-screen max-h-screen overflow-hidden relative w-full flex 
+}
+.scrollable {
+  @apply overflow-y-auto relative;
+}
+
+.cell {
+  @apply col-span-[var(--cell-span)] p-2  flex flex-row items-center gap-2 cursor-pointer text-ellipsis overflow-hidden truncate;
+}
+.row_layout {
+  @apply grid grid-cols-6 items-center w-full  h-[var(--default-min-list-item-height)]
+}
+.row_actionable {
+  @apply cursor-pointer transition-all duration-50 hover:underline;
+}
+
+.row_layout_header {
+  @apply grid grid-cols-6 gap-2 items-center w-full  h-[var(--default-min-list-item-height)] bg-background sticky top-0 z-10;
+}

@@ -1,0 +1,45 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.definition.tag",
+          "punctuation.definition.block",
+          "punctuation.section.array",
+          "punctuation.section.embedded",
+          "punctuation.section.function"
+        ],
+        "settings": {
+          "foreground": "#000000"
+        }
+      },
+      {
+        "scope": [
+          "punctuation.definition.parameters",
+          "punctuation.section.embedded",
+          "punctuation.definition.tag"
+        ],
+        "settings": {
+          "foreground": "#000000"
+        }
+      }
+    ],
+    "[Default Light Modern]": {
+      "textMateRules": [
+        {
+          "scope": "entity.name.function",
+          "settings": {
+            "foreground": "#165b7b"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#C41916"
+          }
+        }
+      ]
+    },
+    "comments": ""
+  }
+}

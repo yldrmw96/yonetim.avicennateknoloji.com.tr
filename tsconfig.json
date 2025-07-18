@@ -7,15 +7,16 @@
       "esnext"
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/lib/*": ["./src/lib/*"],
-      "@/hooks/*": ["./src/hooks/*"],
-      "@/store/*": ["./src/store/*"],
-      "@/types/*": ["./src/lib/types/*"],
-      "@/utils/*": ["./src/utils/*"],
-      "@/app/*": ["./src/app/*"],
-      "@/lib/constants/*": ["./src/lib/constants/*"]
+      "@/*": ["./*"],
+      "@/components/*": ["./components/*"],
+      "@/lib/*": ["./lib/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/store/*": ["./store/*"],
+      "@/types/*": ["./lib/types/*"],
+      "@/utils/*": ["./utils/*"],
+      "@/app/*": ["./app/*"],
+      "@/lib/constants/*": ["./lib/constants/*"],
+      "@/styles/*": ["./styles/*"]
     },
 
     "allowJs": true,
@@ -40,7 +41,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/(isolated-layout)/(isolated-layout-login)/account/_access/client/table.module.css"  ],
   "exclude": [
     "node_modules"
   ]
